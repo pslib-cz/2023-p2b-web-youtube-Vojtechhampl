@@ -2,29 +2,49 @@
 
 .main {
    gap: 1em;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
 }
 
 .ytv {
-    
+   flex-direction: column;
+   display: flex;
+   gap: 1em;
+   justify-content: space-between;
 }
 .ytv__bottom {
-    
-}
-.ytv__left {
-    
-}
-.ytv__right {
-    
-}
-.profile {
-    
-}
-.profile__text {
-    
-}
-.icon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
 
 }
+.ytv__left {
+    display: flex;
+    flex-shrink: 1;
+    gap:1em;
+    align-items: center;
+}
+.ytv__right {
+   display: flex;
+   flex-shrink: 0;
+  
+   justify-content: right;
+   gap:1em;
+   flex-grow: 1;
+}
+.profile {
+    display: flex;
+    gap:0.3em
+}
+.profile__text {
+ 
+}
+.icon {
+   
+}
 .btn--flex {
+    display: flex;
     
 }
